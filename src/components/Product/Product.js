@@ -5,13 +5,14 @@ import './Product.css';
 
 const Product = (props) => {
     const {handleAddToCart, product} = props;
-    const {name, img, seller, price, ratings} = product;
+    const {name, img, seller, price, ratings, shipping} = product;
     return (
         <div className='product'>
             <img src={img} alt="" />
             <div className='product-info'>
                 <p className='product-name'>{name}</p>
-                <p>Price:${price}</p>
+                <p>Price: ${price}</p>
+                <p>Shipping Price: ${shipping}</p>
                 <p><small>Seller: {seller}</small></p>
                 <p><small>Rating: {ratings} starts</small></p>
             </div>
