@@ -3,3 +3,17 @@
     position: sticky;
     top: 0;
 }
+.cart button{
+    
+}
+.btn-clear-cart{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(228, 20, 20);
+}
+.btn-clear-cart:hover{
+    background-color: rgb(255, 0, 0);
+}
